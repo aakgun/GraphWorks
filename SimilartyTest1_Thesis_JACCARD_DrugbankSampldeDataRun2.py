@@ -19,6 +19,8 @@ import matplotlib.pyplot as plt
 import redis
 conn = redis.Redis('localhost')
 
+
+
 train_set = ["The sky is blue.", "The sun is bright."]  # Documents
 test_set = ["The sun in the sky is bright."]  # Query
 #stopWords = stopwords.words('english')
